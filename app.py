@@ -9,7 +9,7 @@ app = Flask(__name__)
 words = []
 
 # Correct variable name to populate the words list
-with open('autocorrect book.txt', 'r', encoding='utf-8') as f:
+with open('Next-World Suggestion.txt', 'r', encoding='utf-8') as f:
     data = f.read().lower()
     words = re.findall(r'\w+', data)  # Use 'words' to store the result of re.findall
 
